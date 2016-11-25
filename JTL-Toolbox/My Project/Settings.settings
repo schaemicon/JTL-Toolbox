@@ -14,5 +14,29 @@
     <Setting Name="Password" Type="System.String" Scope="User">
       <Value Profile="(Default)">sa04jT14</Value>
     </Setting>
+    <Setting Name="kdtemplateid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EXP1</Value>
+    </Setting>
+    <Setting Name="kdoutputfile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kunden.csv</Value>
+    </Setting>
+    <Setting Name="outputpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\temp</Value>
+    </Setting>
+    <Setting Name="server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(local)\JTLWAWI</Value>
+    </Setting>
+    <Setting Name="kdinputfile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ImportKunden.csv</Value>
+    </Setting>
+    <Setting Name="kditemplateid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IMP1</Value>
+    </Setting>
+    <Setting Name="DebitorenStart" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="DebitorenEnde" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">70000</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -101,6 +101,102 @@ Namespace My
                 Me("Password") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("EXP1")>  _
+        Public Property kdtemplateid() As String
+            Get
+                Return CType(Me("kdtemplateid"),String)
+            End Get
+            Set
+                Me("kdtemplateid") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("kunden.csv")>  _
+        Public Property kdoutputfile() As String
+            Get
+                Return CType(Me("kdoutputfile"),String)
+            End Get
+            Set
+                Me("kdoutputfile") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("c:\temp")>  _
+        Public Property outputpath() As String
+            Get
+                Return CType(Me("outputpath"),String)
+            End Get
+            Set
+                Me("outputpath") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("(local)\JTLWAWI")>  _
+        Public Property server() As String
+            Get
+                Return CType(Me("server"),String)
+            End Get
+            Set
+                Me("server") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("ImportKunden.csv")>  _
+        Public Property kdinputfile() As String
+            Get
+                Return CType(Me("kdinputfile"),String)
+            End Get
+            Set
+                Me("kdinputfile") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("IMP1")>  _
+        Public Property kditemplateid() As String
+            Get
+                Return CType(Me("kditemplateid"),String)
+            End Get
+            Set
+                Me("kditemplateid") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("10000")>  _
+        Public Property DebitorenStart() As Integer
+            Get
+                Return CType(Me("DebitorenStart"),Integer)
+            End Get
+            Set
+                Me("DebitorenStart") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("70000")>  _
+        Public Property DebitorenEnde() As Integer
+            Get
+                Return CType(Me("DebitorenEnde"),Integer)
+            End Get
+            Set
+                Me("DebitorenEnde") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

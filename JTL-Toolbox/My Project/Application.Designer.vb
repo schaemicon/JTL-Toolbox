@@ -32,7 +32,12 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.JTL_Toolbox.frmMain
+            Me.MainForm = Global.JTL_Toolbox.Form1
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+        Protected Overrides Sub OnCreateSplashScreen()
+            Me.SplashScreen = Global.JTL_Toolbox.SplashScreen1
         End Sub
     End Class
 End Namespace
